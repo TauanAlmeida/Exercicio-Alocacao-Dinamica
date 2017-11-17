@@ -7,6 +7,7 @@
 int main(){
 	Pessoa *p = (Pessoa*) malloc(sizeof(Pessoa));
 	imprime(cadastro(p));
+	free(p);
 }
 
 void imprime(Pessoa *q){
